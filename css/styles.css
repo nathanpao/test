@@ -1,0 +1,68 @@
+body {
+    font-family: 'Rubik', 'Arial';
+}
+
+h1 {
+  font-size: 64px;
+}
+@media only screen and (max-width: 800px), only screen and (max-height: 640px) {
+  h1 {
+    font-size: 48px;
+  }
+}
+
+h2 {
+  font-size: 36px;
+}
+@media only screen and (max-width: 800px), only screen and (max-height: 640px) {
+  h2 {
+    font-size: 24px;
+  }
+}
+
+h3 {
+  font-size: 24px;
+}
+
+p {
+    font-size: 18px; 
+}
+@media only screen and (max-width: 800px), only screen and (max-height: 640px) {
+  p {
+    font-size: 16px;
+  }
+}
+
+a {
+    color: rgb(0, 90, 60);
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(0, 60, 40);
+}
+
+.content {
+    background-color: white;
+    width: 100%;
+}
+
+.content .container-fluid {
+    background-color: white;
+    width: 80%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 40px;
+}
+
+.body {
+    max-width: 1200px;
+    margin: auto;
+}
+
+.body-content {
+    padding-top: 40px; 
+    padding-bottom: 80px; 
+    display: flex;
+    justify-content: center;
+}
